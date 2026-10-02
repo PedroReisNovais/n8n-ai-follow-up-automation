@@ -1,0 +1,6 @@
+.env
+*.env
+credentials.json
+execution-data/
+.DS_Store
+
