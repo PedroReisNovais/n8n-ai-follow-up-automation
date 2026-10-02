@@ -30,13 +30,12 @@ Agendamento
 
 ## Como importar
 
-1. Importe `workflow.template.json` no n8n.
-2. Configure suas próprias credenciais para planilha, modelo de IA, PostgreSQL e canal de mensagem.
-3. Substitua os campos `REPLACE_WITH_*` e URLs `example.invalid`.
-4. Teste com uma planilha e contatos fictícios.
-5. Inicie com um fluxo manual; habilite agendamentos apenas após a validação.
+1. Importe `workflow.template.json` no n8n para visualizar a arquitetura e as conexões entre nós.
+2. Configure novamente os parâmetros de cada nó com suas próprias credenciais, fontes e regras de negócio.
+3. Teste com uma planilha e contatos fictícios.
+4. Inicie com um fluxo manual; habilite agendamentos apenas após a validação.
 
 ## Uso responsável
 
-Use este template exclusivamente com contatos que tenham autorizado a comunicação e respeite regras de consentimento, limites de frequência e políticas do canal utilizado. Dados, mensagens, credenciais e configurações da implementação original foram removidos.
+Use este template exclusivamente com contatos que tenham autorizado a comunicação e respeite regras de consentimento, limites de frequência e políticas do canal utilizado. Esta versão preserva apenas a arquitetura: dados, mensagens, credenciais, parâmetros e configurações da implementação original foram removidos.
 
